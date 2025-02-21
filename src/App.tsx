@@ -3,7 +3,7 @@
 import styled from "styled-components";
 import {useEffect, useState} from "react";
 import {Movie} from "./interfaces/Movie.ts";
-import TheMovieDB from "./components/TheMovieDB.tsx";
+import TheMovieDb from "./components/TheMovieDb.tsx";
 
 const StyledHeader = styled.h1`
 
@@ -38,7 +38,7 @@ export default function App(){
     return (
         <div>
             <StyledHeader>Movies</StyledHeader>
-            <TheMovieDB data={data} />
+            <TheMovieDb data={data} />
         </div>
     )
 
